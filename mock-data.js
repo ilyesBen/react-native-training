@@ -31,6 +31,38 @@ const mockData = [
     isApproved: false,
     reason: "Lost my puppy cat",
   },
+  {
+    id: 5,
+    startDatetime: "2020-06-01T09:00:00+00:00",
+    endDatetime: "2020-06-11T18:00:00+00:00",
+    leaveType: "annual",
+    isApproved: false,
+    reason: "have some important business",
+  },
+  {
+    id: 6,
+    startDatetime: "2020-05-19T09:00:00+00:00",
+    endDatetime: "2020-05-24T18:00:00+00:00",
+    leaveType: "compassionate",
+    isApproved: false,
+    reason: "My lovely dog passed away",
+  },
+  {
+    id: 7,
+    startDatetime: "2020-10-05T09:00:00+00:00",
+    endDatetime: "2020-10-12T18:00:00+00:00",
+    leaveType: "maternity",
+    isApproved: true,
+    reason: "We are having another one!",
+  },
+  {
+    id: 8,
+    startDatetime: "2021-10-05T09:00:00+00:00",
+    endDatetime: "2021-10-12T18:00:00+00:00",
+    leaveType: "maternity",
+    isApproved: true,
+    reason: "And another one!",
+  },
 ];
 
 const fetchData = () =>
